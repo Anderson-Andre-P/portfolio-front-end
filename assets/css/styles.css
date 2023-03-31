@@ -1050,6 +1050,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .portfolio__img {
+    grid-template-columns: 1fr;
+  }
+
   .qualification__sections {
     display: grid;
     grid-template-columns: 0.6fr;
@@ -1182,6 +1186,15 @@ img {
 
   .portfolio__img {
     width: 320px;
+  }
+
+  .courses__img {
+    width: 640px;
+  }
+
+  .courses__content {
+    margin-bottom: 0;
+    justify-content: center;
   }
 
   .portfolio__content {
@@ -1456,3 +1469,19 @@ img {
     box-shadow: 0 0 0 0 rgba(16, 199, 31, 0);
   }
 }
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, -30px);
+  top: var(--swiper-pagination-top, auto);
+  /* left: 0;
+  width: 100%; */
+}
+
+/* .swiper-horizontal
+  > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  margin-top: 200rem !important;
+} */
